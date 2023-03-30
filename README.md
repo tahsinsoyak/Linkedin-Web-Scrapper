@@ -1,2 +1,0 @@
-# Linkedin-Web-Scrapper
- 
