@@ -34,6 +34,7 @@ def login():
 
 # Return all profiles urls of M&A employees of a certain company
 def getProfileURLs(companyName):
+    #standart scrapper
     time.sleep(1)
     driver.get("https://www.linkedin.com/search/results/people/?geoUrn=%5B%22102424322%22%5D&keywords=nima&origin=FACETED_SEARCH&sid=-DF")
     time.sleep(3)
