@@ -116,7 +116,7 @@ if __name__ == "__main__":
     em1 = ""
     for company in companies:
         time.sleep(1)
-        searchable = getProfileURLs('mehmet','istanbul','menager','turkish','project')
+        searchable = getProfileURLs('Selçuk Akarın','','','','')
         
         for employee in searchable[0]:
             if em1 == employee:
