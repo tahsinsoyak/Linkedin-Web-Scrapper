@@ -7,6 +7,7 @@ import json
 
 path = "venv/chromedriver.exe"
 driver = webdriver.Chrome(path)
+driver.maximize_window()
 # Login
 def login():
     login = open('login.txt') #fake account
@@ -126,7 +127,7 @@ if __name__ == "__main__":
     em1 = ""
     for company in companies:
         time.sleep(1)
-        searchable = getProfileURLs('Selçuk Akarın','','','','')
+        searchable = getProfileURLs('Mehmet Bozan','','','','')
         
         for employee in searchable[0]:
             if em1 == employee:
